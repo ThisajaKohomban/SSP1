@@ -13,16 +13,16 @@ class ProductCategorySeeder extends Seeder
     public function run(): void
     {
         $vegetableCategories = array(
-            "Leafy Greens" => array("Spinach", "Kale", "Lettuce", "Swiss chard", "Collard greens"),
-            "Cruciferous Vegetables" => array("Broccoli", "Cauliflower", "Brussels sprouts", "Cabbage"),
-            "Root Vegetables" => array("Carrots", "Potatoes", "Sweet potatoes", "Beets", "Radishes"),
-            "Allium Vegetables" => array("Onions", "Garlic", "Leeks", "Shallots", "Chives"),
-            "Gourd and Squash Vegetables" => array("Zucchini", "Butternut squash", "Acorn squash", "Pumpkin", "Cucumber"),
-            "Nightshade Vegetables" => array("Tomatoes", "Bell peppers", "Eggplant"),
-            "Podded Vegetables" => array("Peas", "Green beans", "Snap peas", "Edamame"),
-            "Stalk and Stem Vegetables" => array("Asparagus", "Celery", "Rhubarb", "Bamboo shoots"),
-            "Tubers" => array("Cassava", "Yams"),
-            "Miscellaneous Vegetables" => array("Artichokes", "Avocado", "Mushrooms", "Okra"),
+            "Cardiovascular Medications" => array("Lisinopril", "Atorvastatin", "Metoprolol", "Amlodipine", "Warfarin"),
+            "Antibiotics" => array("Amoxicillin", "Azithromycin", "Ciprofloxacin", "Penicillin"),
+            "Pain Relievers" => array("Ibuprofen", "Acetaminophen", "Naproxen", "Aspirin"),
+            "Antidepressants" => array("Sertraline", "Fluoxetine", "Escitalopram", "Citalopram"),
+            "Antidiabetic Drugs" => array("Metformin", "Insulin", "Gliclazide", "Sitagliptin"),
+            "Antianxiety Medications" => array("Alprazolam", "Clonazepam", "Lorazepam", "Diazepam"),
+            "Antihistamines" => array("Cetirizine", "Loratadine", "Diphenhydramine", "Fexofenadine"),
+            "Antipsychotics" => array("Quetiapine", "Risperidone", "Olanzapine", "Aripiprazole"),
+            "Antiviral Drugs" => array("Acyclovir", "Oseltamivir", "Valacyclovir", "Lamivudine"),
+            "Miscellaneous Medications" => array("Omeprazole", "Dexamethasone", "Tramadol", "Bupropion"),
         );
 
         foreach ($vegetableCategories as $categoryName => $vegetables) {
